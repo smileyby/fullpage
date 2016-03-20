@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="es" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="utf-8"/>
+<META name="robots" content="INDEX,FOLLOW">
+<script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"17275a6bf3289700e89f8a85355060a0",petok:"61782e10b5a428b90601d6175a3e1417cb917f98-1457693828-1800",zone:"duis.co",rocket:"a",apps:0,sha2test:0}];document.write('<script type="text/javascript" src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=fb690a32f5/cloudflare.min.js"><'+'\/script>');}}catch(e){};
+//]]>
+</script>
+<link rel="canonical" href="http://duis.co/"/>
+<link rel="shortcut icon" href="http://duis.co/favicon.ico"/>
+<title>Duis | Aprendemos en Comunidad</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name='theme-color' content='#ffffff'>
+<meta name="Description" content="Almacena, comparte y encuentra desde apuntes de clases hasta exámenes de tu universidad y programa académico. Crea tu cuenta en Duis y aprende en comunidad">
+<meta property="og:title" content="Duis | Almacena, comparte y encuentra info de tu U"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://duis.co"/>
+<meta property="og:image" content="http://duis.co/img/profile.png"/>
+<meta property="og:locale" content="es_CO"/>
+<meta property="og:description" content="Almacena, comparte y encuentra desde apuntes de clases hasta exámenes de tu universidad y programa académico. Visita Duis y aprende en comunidad"/>
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,700italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="plg/fullpage/jquery.fullPage.css"/>
+<link rel="stylesheet" href="css/main.min.css">
+<link media="all" type="text/css" rel="stylesheet" href="http://duis.co/css/jquery-ui.min.css">
+<link media="all" type="text/css" rel="stylesheet" href="http://duis.co/swalert/sweet-alert.css">
+</head>
+<body>
+<div class="menu-top">
+<ul>
+<li class="signIn">
+<a href="http://duis.co/login">Inicia Sesión</a>
+</li>
+<li class="signUp">
+<a href="#">Regístrate</a>
+</li>
+</ul>
+</div>
+<div class="menu-duis-movil">
+<div class="btn">
+<span></span>
+<span></span>
+<span></span>
+</div>
+<ul>
+<li><a href="http://duis.co/nosotros/nuestro-equipo">Nuestro equipo</a></li>
+<li><a href="http://duis.co/soporte/terminos">Términos y servicios</a></li>
+<li><a href="http://duis.co/soporte/faqs">FAQ's</a></li>
+<li><a href="http://duis.co/contactanos">Contáctanos</a></li>
+</ul>
+</div>
+<div id="fullpage">
+<div class="section s1">
+<div class="wrapper-slide">
+<div class="vertical-centered">
+<div class="content-vertical-centered">
+<div class="form-boxed">
+<div class="logo">
+<img src="images/logo.svg" alt="Duis">
+</div>
+<div class="tag">#AprendemosEnComunidad</div>
+ 
+<form method="POST" action="http://duis.co/user" accept-charset="UTF-8"><input name="_token" type="hidden" value="WI8y3fjz1iND9L51IqDyu08U8nyb8C4VHZ63OfBI">
+<div class="group">
+<input placeholder="Nombre Completo" required="required" name="nombre" type="text">
+<input placeholder="Correo electr&oacute;nico" required="required" name="correo" type="email">
+<input placeholder="Contrase&ntilde;a" required="required" name="contrase&ntilde;a" type="password" value="">
+<input placeholder="Busca tu Universidad" id="autou" required="required" name="universidad" type="text" value="">
+<input placeholder="Busca tu Carrera" id="autoclass" required="required" name="carrera" type="text" value="">
+<input id="data-info" name="data" type="hidden" value="">
+<input type="checkbox" name="terms" id="terms">
+<label for="terms">Acepto los <a href="http://duis.co/soporte/terminos" target="_blank">términos y condiciones</a></label>
+</div>
+<div class="actions">
+<input class="btn btn-primary" data-loading-text="Registrando..." type="submit" value="Registrarme">
+</div>
+</form>
+ 
+</div>
+</div>
+</div>
+<div class="menu-duis">
+<ul>
+<li><a href="http://duis.co/nosotros/nuestro-equipo">Nuestro equipo</a></li>
+<li><a href="http://duis.co/soporte/terminos">Términos y servicios</a></li>
+<li><a href="http://duis.co/soporte/faqs">FAQ's</a></li>
+<li><a href="http://duis.co/contactanos">Contáctanos</a></li>
+</ul>
+</div>
+</div>
+<div class="more-duis">
+<a href="#" style="display:block;"><img src="img/scroll.gif" alt="Conoce más" style="height:35px">¿Qué es Duis?<img src="img/scroll.gif" alt="Conoce más" style="height:35px"></a>
+</div>
+</div>
+<div class="section s2">
+<div class="vertical-centered">
+<div class="content-vertical-centered">
+<div class="logo">
+<h1 class="tittle">Duis</h1>
+ 
+</div>
+<div class="text">
+Aquí puedes <strong>compartir</strong> y <strong>encontrar</strong> desde <strong>apuntes de clase</strong> hasta <strong>exámenes</strong> de tu Universidad
+</div>
+<div class="files-duis">
+<ul>
+<li><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M18,22.3H7.4v-3H18 M22.6,16.2H7.4v-3h15.2 M22.6,10.1H7.4v-3h15.2 M25.6,1H4.4c-1.7,0-3,1.4-3,3v21.3
+	c0,1.7,1.4,3,3,3h21.3c1.7,0,3-1.4,3-3V4C28.7,2.4,27.3,1,25.6,1z"/>
+</svg>
+</li>
+<li><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M17.4,9.9V4.1l5.8,5.8 M6.6,1C5,1,3.8,2.2,3.8,3.8v22.5c0,1.5,1.3,2.8,2.8,2.8h16.8c1.5,0,2.8-1.3,2.8-2.8
+	V9.4L17.8,1H6.6z M20.6,24c0.1,0.2,0.1,0.4,0.2,0.5c0,0.1,0,0.2-0.1,0.3c-0.1,0.1-0.2,0.1-0.4,0.1c-0.2,0-0.5,0-0.8,0
+	c-0.4,0-0.6,0-0.8,0c-0.2,0-0.4,0-0.5-0.1s-0.2-0.1-0.2-0.1c0,0-0.1-0.1-0.1-0.2l-0.9-2.4h-5.2l-0.9,2.3c0,0.1-0.1,0.2-0.1,0.2
+	c0,0.1-0.1,0.1-0.2,0.1c-0.1,0-0.2,0.1-0.4,0.1c-0.2,0-0.4,0-0.7,0c-0.3,0-0.6,0-0.8,0c-0.2,0-0.3-0.1-0.4-0.1
+	c-0.1-0.1-0.1-0.2-0.1-0.3c0-0.1,0.1-0.3,0.2-0.5l4.2-10.5c0-0.1,0.1-0.2,0.1-0.3c0.1-0.1,0.1-0.1,0.3-0.1c0.1,0,0.3-0.1,0.5-0.1
+	s0.5,0,0.9,0c0.4,0,0.8,0,1,0c0.2,0,0.4,0,0.6,0.1c0.1,0,0.2,0.1,0.3,0.2c0.1,0.1,0.1,0.2,0.2,0.3L20.6,24z M14.3,15.3L14.3,15.3
+	l-2,5h3.9L14.3,15.3z"/>
+</svg>
+</li>
+<li><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M1.4,3.7h10.8c0-1.5,1.2-2.7,2.7-2.7s2.7,1.2,2.7,2.7h10.8v2.7H27v14.8h-7.7l2.4,8.1h-2.7l-2.4-8.1h-3.4
+	l-2.4,8.1H8.2l2.4-8.1H2.8V6.4H1.4V3.7 M5.5,6.4v12.1h18.8V6.4H5.5 M14.7,15.6c-0.1,0.1-0.3,0.2-0.5,0.2c-0.4,0-0.7-0.3-0.7-0.7V9.7
+	c0-0.4,0.3-0.7,0.7-0.7c0.2,0,0.3,0.1,0.5,0.2l1.9,1.9c0.4,0.4,0.9,0.9,0.9,1.3s-0.4,0.9-0.9,1.3L14.7,15.6z"/>
+</svg>
+</li>
+<li><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M26.1,7.4h-5.5V4.6l-2.8-2.8h-5.5L9.5,4.6v2.8H3.9c-1.5,0-2.8,1.2-2.8,2.8v15.2c0,1.5,1.2,2.8,2.8,2.8h22.1
+	c1.5,0,2.8-1.2,2.8-2.8V10.2C28.8,8.6,27.6,7.4,26.1,7.4z M17.8,7.4h-5.5V4.6h5.5 M14.1,24.8H4.4V22h9.7 M18.2,19.3H4.4v-2.8h13.8
+	 M18.2,13.7H4.4V11h13.8"/>
+</svg>
+</li>
+<li><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M9,16.4h19.5v-2.8H9 M9,24.8h19.5V22H9 M9,8h19.5V5.2H9 M2.1,13.6h2.5l-2.5,2.9v1.3h4.2v-1.4H3.7l2.5-2.9
+	v-1.3H2.1 M3.5,9.4h1.4V3.8H2.1v1.4h1.4 M2.1,22h2.8v0.7H3.5v1.4h1.4v0.7H2.1v1.4h4.2v-5.6H2.1V22z"/>
+</svg>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="section s3">
+<div class="vertical-centered">
+<div class="content-vertical-centered">
+<div class="container">
+<div class="col-one">
+<h3>Guardar</h3>
+<div class="text">
+Todos tus <strong>archivos</strong> de clase en un solo lugar, organizados, cuando y donde quieras, nunca había sido tan fácil.
+</div>
+</div>
+<div class="col-two">
+<div class="files-duis">
+<ul class="groupAniOne">
+<li><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M18,22.3H7.4v-3H18 M22.6,16.2H7.4v-3h15.2 M22.6,10.1H7.4v-3h15.2 M25.6,1H4.4c-1.7,0-3,1.4-3,3v21.3
+	c0,1.7,1.4,3,3,3h21.3c1.7,0,3-1.4,3-3V4C28.7,2.4,27.3,1,25.6,1z"/>
+</svg>
+</li>
+<li><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M17.4,9.9V4.1l5.8,5.8 M6.6,1C5,1,3.8,2.2,3.8,3.8v22.5c0,1.5,1.3,2.8,2.8,2.8h16.8c1.5,0,2.8-1.3,2.8-2.8
+	V9.4L17.8,1H6.6z M20.6,24c0.1,0.2,0.1,0.4,0.2,0.5c0,0.1,0,0.2-0.1,0.3c-0.1,0.1-0.2,0.1-0.4,0.1c-0.2,0-0.5,0-0.8,0
+	c-0.4,0-0.6,0-0.8,0c-0.2,0-0.4,0-0.5-0.1s-0.2-0.1-0.2-0.1c0,0-0.1-0.1-0.1-0.2l-0.9-2.4h-5.2l-0.9,2.3c0,0.1-0.1,0.2-0.1,0.2
+	c0,0.1-0.1,0.1-0.2,0.1c-0.1,0-0.2,0.1-0.4,0.1c-0.2,0-0.4,0-0.7,0c-0.3,0-0.6,0-0.8,0c-0.2,0-0.3-0.1-0.4-0.1
+	c-0.1-0.1-0.1-0.2-0.1-0.3c0-0.1,0.1-0.3,0.2-0.5l4.2-10.5c0-0.1,0.1-0.2,0.1-0.3c0.1-0.1,0.1-0.1,0.3-0.1c0.1,0,0.3-0.1,0.5-0.1
+	s0.5,0,0.9,0c0.4,0,0.8,0,1,0c0.2,0,0.4,0,0.6,0.1c0.1,0,0.2,0.1,0.3,0.2c0.1,0.1,0.1,0.2,0.2,0.3L20.6,24z M14.3,15.3L14.3,15.3
+	l-2,5h3.9L14.3,15.3z"/>
+</svg>
+</li>
+<li><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M1.4,3.7h10.8c0-1.5,1.2-2.7,2.7-2.7s2.7,1.2,2.7,2.7h10.8v2.7H27v14.8h-7.7l2.4,8.1h-2.7l-2.4-8.1h-3.4
+	l-2.4,8.1H8.2l2.4-8.1H2.8V6.4H1.4V3.7 M5.5,6.4v12.1h18.8V6.4H5.5 M14.7,15.6c-0.1,0.1-0.3,0.2-0.5,0.2c-0.4,0-0.7-0.3-0.7-0.7V9.7
+	c0-0.4,0.3-0.7,0.7-0.7c0.2,0,0.3,0.1,0.5,0.2l1.9,1.9c0.4,0.4,0.9,0.9,0.9,1.3s-0.4,0.9-0.9,1.3L14.7,15.6z"/>
+</svg>
+</li>
+<li><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M26.1,7.4h-5.5V4.6l-2.8-2.8h-5.5L9.5,4.6v2.8H3.9c-1.5,0-2.8,1.2-2.8,2.8v15.2c0,1.5,1.2,2.8,2.8,2.8h22.1
+	c1.5,0,2.8-1.2,2.8-2.8V10.2C28.8,8.6,27.6,7.4,26.1,7.4z M17.8,7.4h-5.5V4.6h5.5 M14.1,24.8H4.4V22h9.7 M18.2,19.3H4.4v-2.8h13.8
+	 M18.2,13.7H4.4V11h13.8"/>
+</svg>
+</li>
+<li><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M9,16.4h19.5v-2.8H9 M9,24.8h19.5V22H9 M9,8h19.5V5.2H9 M2.1,13.6h2.5l-2.5,2.9v1.3h4.2v-1.4H3.7l2.5-2.9
+	v-1.3H2.1 M3.5,9.4h1.4V3.8H2.1v1.4h1.4 M2.1,22h2.8v0.7H3.5v1.4h1.4v0.7H2.1v1.4h4.2v-5.6H2.1V22z"/>
+</svg>
+</li>
+</ul>
+<ul class="groupAniTwo">
+<li><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M18,22.3H7.4v-3H18 M22.6,16.2H7.4v-3h15.2 M22.6,10.1H7.4v-3h15.2 M25.6,1H4.4c-1.7,0-3,1.4-3,3v21.3
+	c0,1.7,1.4,3,3,3h21.3c1.7,0,3-1.4,3-3V4C28.7,2.4,27.3,1,25.6,1z"/>
+</svg>
+</li>
+<li><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M17.4,9.9V4.1l5.8,5.8 M6.6,1C5,1,3.8,2.2,3.8,3.8v22.5c0,1.5,1.3,2.8,2.8,2.8h16.8c1.5,0,2.8-1.3,2.8-2.8
+	V9.4L17.8,1H6.6z M20.6,24c0.1,0.2,0.1,0.4,0.2,0.5c0,0.1,0,0.2-0.1,0.3c-0.1,0.1-0.2,0.1-0.4,0.1c-0.2,0-0.5,0-0.8,0
+	c-0.4,0-0.6,0-0.8,0c-0.2,0-0.4,0-0.5-0.1s-0.2-0.1-0.2-0.1c0,0-0.1-0.1-0.1-0.2l-0.9-2.4h-5.2l-0.9,2.3c0,0.1-0.1,0.2-0.1,0.2
+	c0,0.1-0.1,0.1-0.2,0.1c-0.1,0-0.2,0.1-0.4,0.1c-0.2,0-0.4,0-0.7,0c-0.3,0-0.6,0-0.8,0c-0.2,0-0.3-0.1-0.4-0.1
+	c-0.1-0.1-0.1-0.2-0.1-0.3c0-0.1,0.1-0.3,0.2-0.5l4.2-10.5c0-0.1,0.1-0.2,0.1-0.3c0.1-0.1,0.1-0.1,0.3-0.1c0.1,0,0.3-0.1,0.5-0.1
+	s0.5,0,0.9,0c0.4,0,0.8,0,1,0c0.2,0,0.4,0,0.6,0.1c0.1,0,0.2,0.1,0.3,0.2c0.1,0.1,0.1,0.2,0.2,0.3L20.6,24z M14.3,15.3L14.3,15.3
+	l-2,5h3.9L14.3,15.3z"/>
+</svg>
+</li>
+<li><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M1.4,3.7h10.8c0-1.5,1.2-2.7,2.7-2.7s2.7,1.2,2.7,2.7h10.8v2.7H27v14.8h-7.7l2.4,8.1h-2.7l-2.4-8.1h-3.4
+	l-2.4,8.1H8.2l2.4-8.1H2.8V6.4H1.4V3.7 M5.5,6.4v12.1h18.8V6.4H5.5 M14.7,15.6c-0.1,0.1-0.3,0.2-0.5,0.2c-0.4,0-0.7-0.3-0.7-0.7V9.7
+	c0-0.4,0.3-0.7,0.7-0.7c0.2,0,0.3,0.1,0.5,0.2l1.9,1.9c0.4,0.4,0.9,0.9,0.9,1.3s-0.4,0.9-0.9,1.3L14.7,15.6z"/>
+</svg>
+</li>
+<li><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M26.1,7.4h-5.5V4.6l-2.8-2.8h-5.5L9.5,4.6v2.8H3.9c-1.5,0-2.8,1.2-2.8,2.8v15.2c0,1.5,1.2,2.8,2.8,2.8h22.1
+	c1.5,0,2.8-1.2,2.8-2.8V10.2C28.8,8.6,27.6,7.4,26.1,7.4z M17.8,7.4h-5.5V4.6h5.5 M14.1,24.8H4.4V22h9.7 M18.2,19.3H4.4v-2.8h13.8
+	 M18.2,13.7H4.4V11h13.8"/>
+</svg>
+</li>
+<li><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M9,16.4h19.5v-2.8H9 M9,24.8h19.5V22H9 M9,8h19.5V5.2H9 M2.1,13.6h2.5l-2.5,2.9v1.3h4.2v-1.4H3.7l2.5-2.9
+	v-1.3H2.1 M3.5,9.4h1.4V3.8H2.1v1.4h1.4 M2.1,22h2.8v0.7H3.5v1.4h1.4v0.7H2.1v1.4h4.2v-5.6H2.1V22z"/>
+</svg>
+</li>
+</ul>
+</div>
+<div class="box">
+<img src="images/logo-duis-box.png" alt="Duis.co" height="171" width="171">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section s4">
+<div class="vertical-centered">
+<div class="content-vertical-centered">
+<h3>Compartir</h3>
+<div class="text">
+Tus archivos para que otros los puedan <strong>encontrar</strong> hace que todos <span>Aprendemos en Comunidad</span>
+</div>
+<div class="box-items">
+<div class="files-duis">
+<ul>
+<li><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M18,22.3H7.4v-3H18 M22.6,16.2H7.4v-3h15.2 M22.6,10.1H7.4v-3h15.2 M25.6,1H4.4c-1.7,0-3,1.4-3,3v21.3
+	c0,1.7,1.4,3,3,3h21.3c1.7,0,3-1.4,3-3V4C28.7,2.4,27.3,1,25.6,1z"/>
+</svg>
+</li>
+<li><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M17.4,9.9V4.1l5.8,5.8 M6.6,1C5,1,3.8,2.2,3.8,3.8v22.5c0,1.5,1.3,2.8,2.8,2.8h16.8c1.5,0,2.8-1.3,2.8-2.8
+	V9.4L17.8,1H6.6z M20.6,24c0.1,0.2,0.1,0.4,0.2,0.5c0,0.1,0,0.2-0.1,0.3c-0.1,0.1-0.2,0.1-0.4,0.1c-0.2,0-0.5,0-0.8,0
+	c-0.4,0-0.6,0-0.8,0c-0.2,0-0.4,0-0.5-0.1s-0.2-0.1-0.2-0.1c0,0-0.1-0.1-0.1-0.2l-0.9-2.4h-5.2l-0.9,2.3c0,0.1-0.1,0.2-0.1,0.2
+	c0,0.1-0.1,0.1-0.2,0.1c-0.1,0-0.2,0.1-0.4,0.1c-0.2,0-0.4,0-0.7,0c-0.3,0-0.6,0-0.8,0c-0.2,0-0.3-0.1-0.4-0.1
+	c-0.1-0.1-0.1-0.2-0.1-0.3c0-0.1,0.1-0.3,0.2-0.5l4.2-10.5c0-0.1,0.1-0.2,0.1-0.3c0.1-0.1,0.1-0.1,0.3-0.1c0.1,0,0.3-0.1,0.5-0.1
+	s0.5,0,0.9,0c0.4,0,0.8,0,1,0c0.2,0,0.4,0,0.6,0.1c0.1,0,0.2,0.1,0.3,0.2c0.1,0.1,0.1,0.2,0.2,0.3L20.6,24z M14.3,15.3L14.3,15.3
+	l-2,5h3.9L14.3,15.3z"/>
+</svg>
+</li>
+<li><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M1.4,3.7h10.8c0-1.5,1.2-2.7,2.7-2.7s2.7,1.2,2.7,2.7h10.8v2.7H27v14.8h-7.7l2.4,8.1h-2.7l-2.4-8.1h-3.4
+	l-2.4,8.1H8.2l2.4-8.1H2.8V6.4H1.4V3.7 M5.5,6.4v12.1h18.8V6.4H5.5 M14.7,15.6c-0.1,0.1-0.3,0.2-0.5,0.2c-0.4,0-0.7-0.3-0.7-0.7V9.7
+	c0-0.4,0.3-0.7,0.7-0.7c0.2,0,0.3,0.1,0.5,0.2l1.9,1.9c0.4,0.4,0.9,0.9,0.9,1.3s-0.4,0.9-0.9,1.3L14.7,15.6z"/>
+</svg>
+</li>
+<li><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M26.1,7.4h-5.5V4.6l-2.8-2.8h-5.5L9.5,4.6v2.8H3.9c-1.5,0-2.8,1.2-2.8,2.8v15.2c0,1.5,1.2,2.8,2.8,2.8h22.1
+	c1.5,0,2.8-1.2,2.8-2.8V10.2C28.8,8.6,27.6,7.4,26.1,7.4z M17.8,7.4h-5.5V4.6h5.5 M14.1,24.8H4.4V22h9.7 M18.2,19.3H4.4v-2.8h13.8
+	 M18.2,13.7H4.4V11h13.8"/>
+</svg>
+</li>
+<li><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M9,16.4h19.5v-2.8H9 M9,24.8h19.5V22H9 M9,8h19.5V5.2H9 M2.1,13.6h2.5l-2.5,2.9v1.3h4.2v-1.4H3.7l2.5-2.9
+	v-1.3H2.1 M3.5,9.4h1.4V3.8H2.1v1.4h1.4 M2.1,22h2.8v0.7H3.5v1.4h1.4v0.7H2.1v1.4h4.2v-5.6H2.1V22z"/>
+</svg>
+</li>
+</ul>
+</div>
+<div class="avatar">
+<img src="images/avatar.png" alt="Perfil Duis" height="164" width="164">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section s5">
+<div class="vertical-centered">
+<div class="content-vertical-centered">
+<h3>Encontrar</h3>
+<div class="text">
+<strong>Archivos</strong> de tu carrera subidos por personas que ya vieron tus <strong>materias</strong>, es justo lo que necesitas para estudiar tus <strong>clases</strong>.
+</div>
+<div class="box-items">
+<div class="files-duis">
+<ul>
+<li>
+<div class="icon">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M18,22.3H7.4v-3H18 M22.6,16.2H7.4v-3h15.2 M22.6,10.1H7.4v-3h15.2 M25.6,1H4.4c-1.7,0-3,1.4-3,3v21.3
+	c0,1.7,1.4,3,3,3h21.3c1.7,0,3-1.4,3-3V4C28.7,2.4,27.3,1,25.6,1z"/>
+</svg>
+</div>
+<span>Apuntes</span>
+</li>
+<li>
+<div class="icon">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M17.4,9.9V4.1l5.8,5.8 M6.6,1C5,1,3.8,2.2,3.8,3.8v22.5c0,1.5,1.3,2.8,2.8,2.8h16.8c1.5,0,2.8-1.3,2.8-2.8
+	V9.4L17.8,1H6.6z M20.6,24c0.1,0.2,0.1,0.4,0.2,0.5c0,0.1,0,0.2-0.1,0.3c-0.1,0.1-0.2,0.1-0.4,0.1c-0.2,0-0.5,0-0.8,0
+	c-0.4,0-0.6,0-0.8,0c-0.2,0-0.4,0-0.5-0.1s-0.2-0.1-0.2-0.1c0,0-0.1-0.1-0.1-0.2l-0.9-2.4h-5.2l-0.9,2.3c0,0.1-0.1,0.2-0.1,0.2
+	c0,0.1-0.1,0.1-0.2,0.1c-0.1,0-0.2,0.1-0.4,0.1c-0.2,0-0.4,0-0.7,0c-0.3,0-0.6,0-0.8,0c-0.2,0-0.3-0.1-0.4-0.1
+	c-0.1-0.1-0.1-0.2-0.1-0.3c0-0.1,0.1-0.3,0.2-0.5l4.2-10.5c0-0.1,0.1-0.2,0.1-0.3c0.1-0.1,0.1-0.1,0.3-0.1c0.1,0,0.3-0.1,0.5-0.1
+	s0.5,0,0.9,0c0.4,0,0.8,0,1,0c0.2,0,0.4,0,0.6,0.1c0.1,0,0.2,0.1,0.3,0.2c0.1,0.1,0.1,0.2,0.2,0.3L20.6,24z M14.3,15.3L14.3,15.3
+	l-2,5h3.9L14.3,15.3z"/>
+</svg>
+</div>
+<span>Examenes</span>
+</li>
+<li>
+<div class="icon">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M1.4,3.7h10.8c0-1.5,1.2-2.7,2.7-2.7s2.7,1.2,2.7,2.7h10.8v2.7H27v14.8h-7.7l2.4,8.1h-2.7l-2.4-8.1h-3.4
+	l-2.4,8.1H8.2l2.4-8.1H2.8V6.4H1.4V3.7 M5.5,6.4v12.1h18.8V6.4H5.5 M14.7,15.6c-0.1,0.1-0.3,0.2-0.5,0.2c-0.4,0-0.7-0.3-0.7-0.7V9.7
+	c0-0.4,0.3-0.7,0.7-0.7c0.2,0,0.3,0.1,0.5,0.2l1.9,1.9c0.4,0.4,0.9,0.9,0.9,1.3s-0.4,0.9-0.9,1.3L14.7,15.6z"/>
+</svg>
+</div>
+<span>Presentaciones</span>
+</li>
+<li>
+<div class="icon">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M26.1,7.4h-5.5V4.6l-2.8-2.8h-5.5L9.5,4.6v2.8H3.9c-1.5,0-2.8,1.2-2.8,2.8v15.2c0,1.5,1.2,2.8,2.8,2.8h22.1
+	c1.5,0,2.8-1.2,2.8-2.8V10.2C28.8,8.6,27.6,7.4,26.1,7.4z M17.8,7.4h-5.5V4.6h5.5 M14.1,24.8H4.4V22h9.7 M18.2,19.3H4.4v-2.8h13.8
+	 M18.2,13.7H4.4V11h13.8"/>
+</svg>
+</div>
+<span>Proyectos</span>
+</li>
+<li>
+<div class="icon">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#FFFFFF" d="M9,16.4h19.5v-2.8H9 M9,24.8h19.5V22H9 M9,8h19.5V5.2H9 M2.1,13.6h2.5l-2.5,2.9v1.3h4.2v-1.4H3.7l2.5-2.9
+	v-1.3H2.1 M3.5,9.4h1.4V3.8H2.1v1.4h1.4 M2.1,22h2.8v0.7H3.5v1.4h1.4v0.7H2.1v1.4h4.2v-5.6H2.1V22z"/>
+</svg>
+</div>
+<span>Talleres</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section s6">
+<div class="vertical-centered">
+<div class="content-vertical-centered">
+<div class="logo">
+<h2 class="tittle">Duis</h2>
+</div>
+<div class="tag">#AprendemosEnComunidad</div>
+<div class="video-play">
+<a href="#">
+<img src="images/icon-video.png" alt="Video Duis" height="71" width="71">
+<div>
+<span>VER VÍDEO</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+<div id="player"></div>
+</div>
+<div class="section s7">
+<div class="wrapper-slide">
+<div class="vertical-centered">
+<div class="content-vertical-centered">
+<div class="form-boxed">
+<div class="logo">
+<img src="images/logo.svg" alt="Duis.co">
+</div>
+<div class="tag">#AprendemosEnComunidad</div>
+ 
+<form method="POST" action="http://duis.co/user" accept-charset="UTF-8"><input name="_token" type="hidden" value="WI8y3fjz1iND9L51IqDyu08U8nyb8C4VHZ63OfBI">
+<div class="group">
+<input placeholder="Nombre Completo" required="required" name="nombre" type="text">
+<input placeholder="Correo electr&oacute;nico" required="required" name="correo" type="email">
+<input placeholder="Contrase&ntilde;a" required="required" name="contrase&ntilde;a" type="password" value="">
+<input placeholder="Busca tu Universidad" id="autou" required="required" name="universidad" type="text" value="">
+<input placeholder="Busca tu Carrera" id="autoclass" required="required" name="carrera" type="text" value="">
+<input id="data-info" name="data" type="hidden" value="">
+<input type="checkbox" name="terms" id="terms">
+<label for="terms">Acepto los <a href="http://duis.co/soporte/terminos" target="_blank">términos y condiciones</a></label>
+</div>
+<div class="actions">
+<input class="btn btn-primary" data-loading-text="Registrando..." onClick="ga(&#039;send&#039;, &#039;event&#039;, &#039;button&#039;, &#039;registrar&#039;, &#039;btn-registrar&#039;, 10);" type="submit" value="Registrarme">
+</div></form>
+ 
+</div>
+</div>
+</div>
+<div class="menu-duis">
+<ul>
+<li><a href="http://duis.co/nosotros/nuestro-equipo">Nuestro equipo</a></li>
+<li><a href="http://duis.co/soporte/terminos">Términos y servicios</a></li>
+<li><a href="http://duis.co/soporte/faqs">FAQ's</a></li>
+<li><a href="http://duis.co/contactanos">Contáctanos</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<script data-rocketsrc="http://duis.co/js/jquery-1.11.2.min.js" type="text/rocketscript"></script>
+<script data-rocketsrc="http://duis.co/plg/fullpage/jquery.fullPage.min.js" type="text/rocketscript"></script>
+<script data-rocketsrc="http://duis.co/js/jquery-ui.min.js" type="text/rocketscript"></script>
+<script data-rocketsrc="http://duis.co/swalert/sweet-alert.min.js" type="text/rocketscript"></script>
+<script type="text/rocketscript">
+
+
+		var tag = document.createElement('script');
+
+	    tag.src = "https://www.youtube.com/iframe_api";
+	    var firstScriptTag = document.getElementsByTagName('script')[0];
+	    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+	    var player;
+	    function onYouTubeIframeAPIReady() {
+	        player = new YT.Player('player', {
+	            height: '100%',
+	            width: '100%',
+	            videoId: '6ifmsgvMAKQ',
+	            playerVars : {
+	                autohide : 1,
+	                showinfo : 0,
+	                rel : 0,
+	                theme : "light",
+	                modestbranding : 1
+	            },
+	            events: {
+	                'onReady': onPlayerReady,
+	                'onStateChange': onPlayerStateChange
+	            }
+	        });
+	    }
+
+	    function onPlayerReady(event) {}
+
+	    function onPlayerStateChange(event) {
+	        if(player.getPlayerState() == 0){
+	            $("#player").removeClass("active");
+	        }
+	    }
+
+		$(document).ready(function() {
+			                        
+            			$('#fullpage').fullpage({
+				css3: true,
+				navigation: true,
+				navigationPosition : "left",
+				navigationTooltips: [
+					'Registrate', 
+					'Duis', 
+					'Alamacena - Guarda', 
+					'Comparte',
+					'Encuentra',
+					'Vídeo Duis',
+					'Aprendemos en Comunidad'
+				],
+				verticalCentered : false,
+				afterRender: function(anchorLink, index){
+					$("body").addClass("ready");
+				},
+				onLeave: function(index, nextIndex, direction){
+					$("#player").removeClass("active");
+					$("#someSelector").one("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){
+						player.stopVideo();
+					});
+				}
+			});
+
+			$(".more-duis").on("click",function(){
+				$.fn.fullpage.moveSectionDown();
+			});
+
+			$(".signUp").on("click",function(){
+				$.fn.fullpage.moveTo(1);
+			});
+
+
+            $(".video-play a").on("click",function(e){
+                e.preventDefault();
+                player.loadVideoById("6ifmsgvMAKQ", 0);
+                $("#player").addClass("active");
+            });
+
+            $(".menu-duis-movil .btn").on("click",function(){
+            	$(".menu-duis-movil").toggleClass("active");
+            });
+            // nuevo
+
+            $('#autou').autocomplete({
+            	source: 'institucion/list',
+            	minLength:0,
+            	autoFocus: true,
+            	select:function(e, ui){
+            		$('#autou').val(ui.item.value);
+            		//$('#uni').val(ui.item.id);
+            		$('#autoclass').autocomplete({
+            			source: 'institucion/listprograms/{'+ui.item.id +'}',/*$('#uni').val()*/
+            			minLength:0,
+            			select:function(e, ui){
+            				$('#autoclass').val(ui.item.value);
+            				$('#data-info').val(ui.item.id);
+            				/*alert($('#uni').val());*/
+            			}
+            		})
+            	}
+            });
+            $(".ui-autocomplete-input").bind("focusout", function (event) {
+                var autocomplete = $(this).data("ui-autocomplete");
+                if (!autocomplete.options.autoSelect || autocomplete.selectedItem) { return; }
+
+                var matcher = new RegExp("^" + $.ui.autocomplete.escapeRegex($(this).val()) + "$", "i");
+                autocomplete.widget().children(".ui-menu-item").each(function () {
+                    var item = $(this).data("ui-autocomplete-item");
+                    if (matcher.test(item.label || item.value || item)) {
+                        autocomplete.selectedItem = item;
+                        return false;
+                    }
+                });
+                if (autocomplete.selectedItem) {
+                    autocomplete._trigger("select", event, { item: autocomplete.selectedItem });
+                }
+            });
+		});
+
+	</script>
+<script type="text/rocketscript">
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-61065537-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</body>
+</html>
